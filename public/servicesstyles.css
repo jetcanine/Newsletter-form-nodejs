@@ -1,0 +1,93 @@
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@800&family=Roboto+Slab:wght@900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@900&family=Nunito:wght@800&family=Roboto+Slab:wght@900&display=swap');
+
+        body{
+            background-image: url(bg1.png);
+        }
+        .services{
+            display: flex;
+            justify-content: center;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-family: 'Montserrat', sans-serif;
+            color: rgba(252,193,31,255);
+
+        }
+        .services>h1{
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-size: 80px;
+        }
+        .content{
+            display: flex;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            color: white;
+            font-size:17px;
+        }
+        .content2{
+            display: flex;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            color: white;
+            font-size:17px;
+        }
+        .content3{
+            display: flex;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            color: white;
+            font-size:17px;
+        }
+        .content4{
+            display: flex;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            justify-content: center;
+            color: white;
+            font-size:17px;
+        }
+        .content5{
+            display: flex;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            color: white;
+            font-size:17px;
+        }
+        .content6{
+            display: flex;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            color: white;
+            font-size:17px;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+        }
+        .btn>button{
+            background: white;
+            margin: 10px 10px 10px 10px ;
+            padding: 10px 25px 10px 25px ;
+            outline: none;
+            border-radius: 25px;
+            font-family: 'Merriweather', serif;
+            cursor: pointer;
+            font-size: large;
+        }
+        button:hover{
+            background: rgba(252,193,31,255);
+        }

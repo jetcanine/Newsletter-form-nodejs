@@ -1,0 +1,96 @@
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@800&family=Roboto+Slab:wght@900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@900&family=Nunito:wght@800&family=Roboto+Slab:wght@900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background: url(bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navbar{
+            display: flex;
+            flex-wrap: wrap;
+            margin: -125px 10px 10px 10px;
+            padding: 10px 45px 10px 10px;
+            justify-content: right;
+        }
+        .navbar>a{
+            margin: 10px 75px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            text-decoration: none;
+            font-size: 40px;
+            color: aliceblue;
+            font-family: 'Merriweather', serif;
+        }
+        .navbar>a:focus{
+            color:rgba(252,193,31,255);
+        }
+        .logo{
+            display: flex;
+            flex-wrap: inherit;
+        }
+        .logo>img{
+            display: flex;
+            flex-wrap: wrap;
+            /* size: 5px; */
+            width: 80px;
+            height: 80px;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+        }
+        .maintxt{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 96px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-size: 80px;
+            color: rgba(252,193,31,255);
+            font-family: 'Montserrat', sans-serif;
+        }
+        .maintxt2{
+            display: flex;
+            flex-wrap: wrap;
+            margin: -40px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-size: 80px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            margin: 10px 10px 10px 10px ;
+            padding: 10px 10px 10px 10px ;
+        }
+        .content>input{
+            margin: 10px 1095px 10px 10px ;
+            padding: 14px 7px 14px 10px ;
+            border-radius: 25px;
+            outline: none;
+            font-size: large;
+        }
+        .submit{
+            display: flex;
+            margin: -9px 10px 10px 20px ;
+            padding: 10px 10px 10px 10px ;
+        }
+        .submit>button{
+            background: white;
+            margin: 10px 10px 10px 10px ;
+            padding: 10px 25px 10px 25px ;
+            outline: none;
+            border-radius: 25px;
+            font-family: 'Merriweather', serif;
+            cursor: pointer;
+            font-size: large;
+        }
+
+        .submit>button:hover{
+            background: rgba(252,193,31,255);
+        }
